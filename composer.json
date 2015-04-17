@@ -1,0 +1,19 @@
+{
+  "name": "impactwave/edge-php",
+  "description": "A next-generation VDOM-based template engine for PHP web applications.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Claudio Silva",
+      "email": "claudio.silva@impactwave.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Edge\\": "src/Edge"
+    },
+    "files": ["src/globals.php", "src/utility.php"]
+  },
+  "minimum-stability": "dev"
+}
